@@ -61,12 +61,17 @@
   align-self: flex-start;
 }
 
-.exercice-all .container {
+.exercice-all-in-1 .container {
   display: flex;
-  flex-direction: row-reverse;
-  align-items: flex-start;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
 }
 
+.exercice-all-in-1 .element-blue {
+  order: -1;
+  align-self: flex-start;
+}
 
 
 /* 8. exercice-all-in-2 */
