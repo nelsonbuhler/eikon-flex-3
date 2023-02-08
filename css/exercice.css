@@ -88,6 +88,10 @@
   align-self: flex-start;
 }
 
+.exercice-margin-auto .container {
+  display: flex;
+}
 
-/* 8. exercice-margin-auto */
-
+.exercice-margin-auto .element-red {
+  margin: auto;
+}
